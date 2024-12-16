@@ -3,5 +3,7 @@ class ApiResponse {
     (this.message = message),
       (this.statusCode = statusCode < 400),
       (this.data = data);
-  } 
+  }
 }
+
+export { ApiResponse };
